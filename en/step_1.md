@@ -1,19 +1,18 @@
-## Introduction
+- The LEDs on the Sense Hat matrix can be cleared, to remove any text, letter or images you may have displayed. The Sense Hat Python module first needs importing, and a `sense` object needs creating.
 
-Add project description here. What will learners be making?
+	```python
+	from sense_hat import SenseHat
+	sense = SenseHat()
+	```
 
-### What you will make
+- Now the screen can be cleared:
 
-Add something here to showcase here, for example:
+	```python
+	sense.clear()
+	```
+- This clears the matrix by turning off all the LEDs. You can pass a colour into the `clear()` function, to clear the matrix with any specific colour.
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
-
-Add instructions here. These should explain either how the finished project will work, or explain how to interact with the content above.
-
-### What you will learn
-
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
-
-+ [Add curriculum strand/level description.](https://www.raspberrypi.org/curriculum/strand/level)
+	```python
+	red = (255, 0, 0)
+	sense.clear(red)
+	```
