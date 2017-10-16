@@ -1,0 +1,16 @@
+title: Clearing the Sense HAT LED matrix
+hero_image: images/banner.png
+description: Clear the Sense HAT LEDs with a colour of your choice
+original_url:
+theme: red # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+duration: 1 # possible values: 1, 2 or 3
+listed: false
+ingredient: true
+copyedit: false
+curriculum: 
+interests: 
+technologies: "sense-hat, physical computing, python, minecraft"
+site_areas:
+steps:
+  - title: Clear the LEDs
+
